@@ -10,11 +10,11 @@ on:
         GSI:
               description: ' GSI Image Direct Link '
               required: true
-              default: 'https://github.com/ponces/treble_build_aosp/releases/download/v2023.12.01/aosp-arm64-ab-gapps-14.0-20231201.img.xz'        
+              default: 'https://github.com/ponces/treble_aosp/releases/download/v2025.06.25/aosp-arm64-ab-gapps-16.0-20250625.img.xz'        
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'aosp-arm64-ab-gapps-14.0-a03.7z'
+              default: 'aosp-arm64-ab-gapps-16.0-a03.7z'
         VERSION:
               description: 'Baseband Version'
               required: true
