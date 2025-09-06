@@ -56,7 +56,6 @@ jobs:
       run: |
         cd lpbinary/binary
         wget ${{ github.event.inputs.VENDOR }}
-        wget https://sourceforge.net/projects/a03-files/files/product.img
         wget https://sourceforge.net/projects/a03-files/files/system_ext.img
     - name: Packing
       run: |
